@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.emplusx/emplusx",
+  "description": "Finished, on-brand .pptx and .docx from a brief - quality-gated by an agentic consulting team.",
+  "version": "1.0.0",
+  "websiteUrl": "https://emplusx.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://emplusx.com/api/mcp"
+    }
+  ]
+}
