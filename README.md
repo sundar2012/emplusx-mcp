@@ -10,6 +10,7 @@ structure for your approval, generate a presentation or document through a
 multi-agent quality-gate stack, refine it by prompt, preview pages in an
 interactive panel, and hand you a download link for the finished file.
 
+- **Claude directory listing:** https://claude.ai/directory/em-x
 - **Connector URL:** `https://emplusx.com/api/mcp`
 - **Transport:** streamable HTTP
 - **Auth:** OAuth 2.1 with dynamic client registration — sign in with your
@@ -24,11 +25,21 @@ runs at emplusx.com.
 
 ## Install
 
-### Claude (web / desktop)
+### Claude (web / desktop / mobile)
 
-Settings → Connectors → **Add custom connector** → paste
-`https://emplusx.com/api/mcp` → sign in when prompted.
+EM+X is a listed connector in the Claude directory: open
+[claude.ai/directory/em-x](https://claude.ai/directory/em-x) and click
+**Connect** — no URL to paste, and one connect covers claude.ai, Claude
+Desktop, and mobile. In the desktop app,
+[claude://claude.ai/directory/em-x](claude://claude.ai/directory/em-x)
+opens the listing directly.
 (Step-by-step: https://emplusx.com/connect)
+
+### Claude Code
+
+```
+claude mcp add --transport http emplusx https://emplusx.com/api/mcp
+```
 
 ### Cursor
 
@@ -85,4 +96,4 @@ text-only hosts the flow works through the core tools alone.
 
 The contents of this repository (metadata and documentation) are
 [MIT-licensed](LICENSE). The EM+X service is a commercial product of Cubed
-Studios.
+Studios, a subsidiary of Cubed Ventures LLC.
