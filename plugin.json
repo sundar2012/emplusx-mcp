@@ -1,0 +1,24 @@
+{
+  "name": "emplusx",
+  "version": "1.0.0",
+  "description": "Create finished, on-brand .pptx and .docx deliverables from a guided brief — quality-gated, faithful to your template, refined by prompt.",
+  "author": {
+    "name": "Cubed Ventures LLC"
+  },
+  "homepage": "https://emplusx.com",
+  "repository": "https://github.com/sundar2012/emplusx-mcp",
+  "license": "MIT",
+  "keywords": [
+    "presentations",
+    "documents",
+    "pptx",
+    "docx",
+    "decks",
+    "slides",
+    "reports",
+    "templates",
+    "productivity"
+  ],
+  "logo": "logo.png",
+  "mcpServers": "./mcp.json"
+}
